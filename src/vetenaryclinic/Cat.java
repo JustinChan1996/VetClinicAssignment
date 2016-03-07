@@ -18,6 +18,7 @@ import java.text.*;
 public class Cat extends Pet
 {
     /* Define attibute */
+    /* Presence of allergy for the cat */
     private boolean allergic;
     
     /**

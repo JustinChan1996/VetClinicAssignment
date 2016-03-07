@@ -20,8 +20,11 @@ import java.text.*;
 public class Dose {
     
     /* Define attributes */
+    /* Name of drug administered to the pet */
     private String nameOfDrug;
+    /* Date when drug is admnistered */
     private Date date;
+    /* Dose of the drug in miligrams */
     private double doseInGrams;
     
     /**

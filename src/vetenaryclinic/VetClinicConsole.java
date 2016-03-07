@@ -76,6 +76,10 @@ public class VetClinicConsole {
             
             }
         }
+    /**
+     * Add a pet to the System 
+     * @param vc VetClinic object
+     */
     public static void addPet(VetClinic vc)
     {
         Scanner input = new Scanner(System.in);
@@ -204,7 +208,10 @@ public class VetClinicConsole {
         }
         
     }
-    
+    /**
+     * Delete a pet object from the system
+     * @param vc VetClinic object
+     */
     public static void DeletePet(VetClinic vc)
     {
         Scanner input = new Scanner(System.in);
@@ -256,7 +263,10 @@ public class VetClinicConsole {
             input.nextLine();
         }
     }
-    
+    /**
+     * Display all the pet details of pets registered to the the system
+     * @param vc VetClinic object
+     */
     public static void DisplayPet(VetClinic vc)
     {
         Scanner input = new Scanner(System.in);
@@ -308,6 +318,10 @@ public class VetClinicConsole {
         
     }
     
+    /**
+     * Administer drug to a pet
+     * @param vc VetClinic object
+     */
     public static void AdministerDrug(VetClinic vc)
     {
         Scanner input = new Scanner(System.in);
@@ -363,6 +377,10 @@ public class VetClinicConsole {
         
     }
     
+    /**
+     * Modify a pet's details(Weight and name)
+     * @param vc VetClinic object
+     */
     public static void ModifyPet(VetClinic vc)
     {
         Scanner input = new Scanner(System.in);

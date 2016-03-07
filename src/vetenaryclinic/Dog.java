@@ -19,6 +19,7 @@ import java.text.*;
 public class Dog extends Pet{
     
     /* Define attributes */
+    /* Breed of the dog */
     private String breed;
     
     /** Constructor with no arguments 

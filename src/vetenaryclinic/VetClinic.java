@@ -17,7 +17,9 @@ import java.util.*;
 public class VetClinic {
     
     /* Define attributes */
+    /* Name of the clinic */
     private String name;
+    /* Collection of pet objects */
     private ArrayList<Pet> pets = new ArrayList<Pet>();
     
     /**
